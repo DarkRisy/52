@@ -23,6 +23,9 @@ p{
     font-style: normal;
     color: white;
 }
+a{
+    text-decoration: none;
+}
 body{
     margin: 0;
     max-width: 1200px;
@@ -35,7 +38,7 @@ body{
     width: 1200px;
     height: 100%;
     background-color: black;
-    opacity: 77%;
+    opacity: 85%;
     position: fixed;
     z-index: -1;
     filter: blur(15px);
