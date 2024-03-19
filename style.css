@@ -7,7 +7,7 @@ html{
 }
 h1{
     margin: 0 0 29px 0;
-    font-size: 64px;
+    font-size: 56px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -19,7 +19,7 @@ p{
     font-size: 24px;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
     color: white;
 }
@@ -57,13 +57,16 @@ header{
 .block{
     margin: 100px 0 0 0;
     display: flex;
-}
-.icon{
-    margin: 0 0 0 85px;
+    align-items: center;
+    justify-content: space-between;
 }
 .under{
-    margin: 150px 0 0 0;
+    margin: 100px 0 0 0;
     width: 1200px;
     display: flex;
     justify-content: center;
+}
+.bl_2{
+    margin: 100px 0 100px 0;
+    text-align: center;
 }
