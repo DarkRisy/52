@@ -1,0 +1,69 @@
+html{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url(art-kosmos-zvezdy-galaktiki.jpg);
+    background-size: cover;
+}
+h1{
+    margin: 0 0 29px 0;
+    font-size: 64px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+p{
+    margin: 0 0 19px 0;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+}
+body{
+    margin: 0;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.back{
+    width: 1200px;
+    height: 100%;
+    background-color: black;
+    opacity: 77%;
+    position: fixed;
+    z-index: -1;
+    filter: blur(15px);
+}
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.nav ul{
+    margin-left: 100px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    list-style: none;
+}
+.block{
+    margin: 100px 0 0 0;
+    display: flex;
+}
+.icon{
+    margin: 0 0 0 85px;
+}
+.under{
+    margin: 150px 0 0 0;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
